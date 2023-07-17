@@ -621,7 +621,8 @@ noinst_HEADERS = \
 	win32-misc.h \
 	win32-service.h \
 	win32-syscall.h \
-	win32-syslog.h
+	win32-syslog.h \
+	source-lipc.h runmode-lipc-packet.h
 
 libsuricata_c_a_SOURCES = \
 	alert-debuglog.c \
@@ -1221,7 +1222,8 @@ libsuricata_c_a_SOURCES = \
 	util-var-name.c \
 	win32-misc.c \
 	win32-service.c \
-	win32-syscall.c
+	win32-syscall.c \
+	runmode-lipc.c source-lipc-packet.c
 
 EXTRA_DIST = \
 	tests/stream-tcp-inline.c \
