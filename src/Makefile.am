@@ -622,7 +622,7 @@ noinst_HEADERS = \
 	win32-service.h \
 	win32-syscall.h \
 	win32-syslog.h \
-	source-lipc.h runmode-lipc-packet.h
+	source-lipc.h runmode-lipc.h
 
 libsuricata_c_a_SOURCES = \
 	alert-debuglog.c \
